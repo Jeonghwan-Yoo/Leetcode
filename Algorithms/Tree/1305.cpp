@@ -9,6 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// O(N)
 class Solution {
 public:
     void Inorder(TreeNode *root, vector<int> &path)
