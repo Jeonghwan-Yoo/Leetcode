@@ -1,4 +1,4 @@
-// O(N)
+// O(N^2)
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
